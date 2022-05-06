@@ -1,0 +1,20 @@
+body,p, h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    height: 100vh;
+}
+
+@media screen and (max-width: 400px) {
+    h1{
+        /* display: none; */
+        font-size: 1.5rem;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
